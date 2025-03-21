@@ -1,0 +1,19 @@
+
+% Choose the 
+rootdir = 'C:\Users\Rikki\Documents\Postdoc\Software\MATLAB\Fluidity_Sorting_Paper\NeighborAnalysis\';
+filelist = dir(fullfile(rootdir, '**\*.m'));  %get list of files and folders in any subfolder
+[fList,pList] = matlab.codetools.requiredFilesAndProducts({filelist.name});
+{pList.Name}
+
+
+rootdir = 'C:\Users\Rikki\Documents\Postdoc\Software\MATLAB\Fluidity_Sorting_Paper\SortingAnalysis\';
+filelist = dir(fullfile(rootdir, '**\*.m'));  %get list of files and folders in any subfolder
+[fList,pList] = matlab.codetools.requiredFilesAndProducts({filelist.name});
+{pList.Name}
+
+
+rootdir = 'C:\Users\Rikki\Documents\Postdoc\Software\MATLAB\Fluidity_Sorting_Paper\Figure_Panels_Code\';
+filelist = dir(fullfile(rootdir, '**\*.m'));  %get list of files and folders in any subfolder
+[fList,pList] = matlab.codetools.requiredFilesAndProducts({filelist.name});
+{pList.Name}
+
