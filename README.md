@@ -2,7 +2,7 @@
 
 This MATLAB code was written by Rikki M. Garner as a companion to the paper "Tissue Fluidity: A Double-Edged Sword for Multicellular Patterning", available online at: https://doi.org/10.1101/2025.03.01.640992
 
-NOTE: This code requires MATLAB with the 'Statistics and Machine Learning', 'Curve Fitting', and 'Image Processing' toolboxes to be installed.
+NOTE: This code requires MATLAB with the 'Statistics and Machine Learning', 'Curve Fitting', 'Image Processing', and 'Deep Learning' toolboxes installed.
 
 Overview: The code is distributed into a series of folders (1) \SortingAnalysis\, which contains functions used to calculate the domain size growth for both the experimental data and the simulations. (2) \NeighborAnalysis\, which contains functions used to analyze the neighbor exchange rate in the simulations. (3) \Figure_Panels_Code\, which can be used to re-gnerate the figures from the data. And (4) \Generally_Useful\, which contains extra packages I did not write but are used to generate figures.
 
